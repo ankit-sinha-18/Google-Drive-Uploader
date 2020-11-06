@@ -1,0 +1,71 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@ankit-sinha-18 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+ankit-sinha-18
+/
+gdrive-uploader-telegram-bot
+forked from cdfxscrq/gdrive-uploader-telegram-bot
+0
+028
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+gdrive-uploader-telegram-bot/app.json
+@cdfxscrq
+cdfxscrq Updated
+Latest commit 1f3262e on Aug 21
+ History
+ 2 contributors
+@viperadnan-git@cdfxscrq
+Executable File  23 lines (23 sloc)  661 Bytes
+  
+{
+  "name": "GDrive-Uploader-Bot",
+  "description": "Telegram/Direct Links to GDrive Uploader Bot",
+  "repository": "https://github.com/viperadnan-git/gdrive-uploader-telegram-bot",
+  "logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
+  "keywords": ["Telegram", "Google Drive", "uploader"],
+  "env": {
+      "BOT_TOKEN": {
+      "description": "Get it from @BotFather"
+    },
+    "APP_ID": {
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+    },
+    "API_HASH": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
